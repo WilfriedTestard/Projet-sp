@@ -1,0 +1,70 @@
+{
+
+    "name": "sum-42",
+
+    "version": "1.0.0",
+
+    "description": "",
+
+    "scripts": {
+
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+        "dev1": "nodemon src/Pages/Habillement/habillement.js",
+
+        "dev2": "nodemon src/Pages/Calendrier/calendrier.js",
+
+        "dev3": "nodemon src/Pages/Manoeuvre/manoeuvre.admin.js",
+
+        "dev4": "nodemon src/Pages/Login/login.js"
+
+    },
+
+    "keywords": [],
+
+    "author": "",
+
+    "license": "ISC",
+
+    "dependencies": {
+
+        "body-parser": "^1.20.2",
+
+        "cors": "^2.8.5",
+
+        "express": "^4.18.2",
+
+        "express-jwt": "^5.3.3",
+
+        "jsonwebtoken": "^9.0.2",
+
+        "mongodb": "^5.8.0",
+
+        "mongoose": "^8.1.0",
+
+        "multer": "^1.4.5-lts.1",
+
+        "mysql2": "^3.7.1",
+
+        "nodemailer": "^6.9.8",
+
+        "nodemon": "^3.0.2",
+
+        "reflect-metadata": "^0.2.1",
+
+        "typeorm": "^0.3.19",
+
+        "typescript": "^5.3.3"
+
+    },
+
+    "devDependencies": {
+
+        "@types/express": "^4.17.21",
+
+        "ts-node": "^10.9.2"
+
+    }
+
+}
+
